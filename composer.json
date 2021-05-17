@@ -1,0 +1,32 @@
+{
+    "name": "1024mbits/storage-link-route",
+    "description": "Execute artisan command \"Storage::link\" on shared hosting",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan M Rube (Juanito)",
+            "email": "jmrube10@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dev1024\\StorageLinkRoute\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dev1024\\StorageLinkRoute\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.17"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dev1024\\StorageLinkRoute\\StorageLinkRouteServiceProvider"
+            ]
+        }
+    }
+}
