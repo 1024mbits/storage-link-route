@@ -34,6 +34,6 @@ class StorageLinkRouteTest extends TestCase
             ->with(public_path('storage'))
              ->andReturn(true);
 
-        $this->get('storage-link')->assertSee('The public/storage directory already exists.');
+        $this->get('storage-link')->assertSee('The [public/storage] directory already exists.');
     }
 }

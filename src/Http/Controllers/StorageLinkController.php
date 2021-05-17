@@ -10,7 +10,8 @@ class StorageLinkController {
     {
         if ($filesystem->exists(public_path('storage'))) {
             return view('storage-link::storage', [
-                'storage_link' => 'The public/storage directory already exists.'
+                'storage_link' => 'The [public/storage] directory already exists.',
+                'storage_link_exists' => true
             ]);
         }
 
@@ -19,7 +20,8 @@ class StorageLinkController {
         );
 
         return view('storage-link::storage', [
-            'storage_link' => 'The [public/storage] directory has been linked.'
+            'storage_link' => 'The [public/storage] directory has been linked.',
+            'storage_link_exists' => false
         ]);
     }
 }
