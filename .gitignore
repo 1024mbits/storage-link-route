@@ -1,6 +1,6 @@
 .phpunit.result.cache
 coverage.txt
 vendor/
-coverage/
+coverage-html/
 composer.lock
 .idea/
