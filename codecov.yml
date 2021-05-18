@@ -1,0 +1,9 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+codecov:
+  require_ci_to_pass: false
+comment:
+  require_changes: true

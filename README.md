@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/1024mbits/storage-link-route/branch/main/graph/badge.svg?token=AZ8BLV5JQG)](https://codecov.io/gh/1024mbits/storage-link-route)
+
 # storage-link-route
 It generates a symbolic link from a route when you don't have access to the console, for example, in shared servers or hosting.
 
